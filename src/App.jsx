@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Wedding from './Wedding'
 import Toy from './Toy'
 import Member from './Member'
@@ -8,7 +9,7 @@ const App = () => {
     <div>
       
 
-
+    
 
 
 
