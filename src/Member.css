@@ -1,0 +1,23 @@
+.container1{
+    background-image: linear-gradient(to right, rgb(255, 242, 244),white,rgb(255, 234, 238)) ;
+}
+.abc{
+    background-color:transparent;
+}
+h1{
+    font-size: 55px;
+    color: black;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+.btn1{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(31, 28, 28);
+    &:hover{
+        background-color: rgb(41, 38, 38);
+    }
+}

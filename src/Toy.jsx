@@ -3,7 +3,6 @@ import './Toy.css'
 const Toy = () => {
   return (
     <div>
-asdfv
     </div>
   )
 }
