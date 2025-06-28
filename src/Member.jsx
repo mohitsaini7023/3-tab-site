@@ -4,7 +4,7 @@ const Member = () => {
   return (
     <div className='container1'>
       <div className='container abc'>
-        <div className='row'>
+        <div className='row '>
           <div className='col-lg-6 col-sm-12 mt-5 pt-5'>
             <h1>Access a library of free design resources</h1>
             <p>The best resources and books from around the web, collected and curated for your reading.</p>
