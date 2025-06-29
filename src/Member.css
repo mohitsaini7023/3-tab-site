@@ -21,3 +21,55 @@ p{
         background-color: rgb(41, 38, 38);
     }
 }
+
+.btn2{
+    border: 1px solid gray;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+    &:hover{
+        background-color: rgb(226, 220, 220);
+    }
+}
+
+.h6{
+    color: gray;
+    font-size: 15px;
+}
+.h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+.p1{
+    font-size: 15px;
+    color: gray;
+}
+.card{
+      transition: transform 0.3s ease;
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+.container-fluid{
+    background-image: linear-gradient(to right, rgb(77, 40, 46),rgb(61, 60, 114),rgb(77, 40, 46));
+}
+.h3{
+    font-size: 38px;
+}
+.h4{
+    color: rgb(202, 202, 202);
+    font-size: 23px;
+}
+.input{
+    border: 1px solid white;
+    outline: none;
+    
+}
+.btn4{
+    background-color: rgba(255, 255, 255, 0.295);
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
