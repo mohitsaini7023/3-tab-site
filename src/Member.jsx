@@ -91,6 +91,48 @@ const Member = () => {
     </div>
 
 
+
+
+
+<div className='container bg-white'>
+    <div className='row'>
+        <div className='col-lg-6 col-sm-12'>
+          <img src="https://cdn.prod.website-files.com/62aee78456e4207786ac4d18/62aeebbbc7c1e424f6724096_Memberbase%20Logo-1.svg" className='w-75 pt-5' alt="" />
+          <p className='p3 pt-5'>Built by Nikolai Bain.</p>
+          <p className='p3 '>Powered by Webflow.</p>
+          <p className='p3 pt-3 pb-5'>© 2022 Memberbase. All Rights Reserved.</p>
+        </div>
+        <div className='col-lg-4 col-sm-12 '>
+          <div className='d-flex' style={{justifyContent:'space-between'}}>
+            <div>
+              <h6 className='pb-2 pt-5'>Website</h6>
+              
+                <li>Home</li>
+                <li>Resources</li>
+                <li>Contact</li>
+                <li>Ebook (CMS)</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+            </div>
+            <div className='px-5'>
+              <h6 className='pb-2 pt-5'>Membership</h6>
+                <li>Sign In</li>
+                <li>Sign Up</li>
+                <li>User Account</li>
+                <li>Reset Password</li>
+            </div>
+          </div>
+        </div>
+        <div className='col-lg-2 col-sm-12 px-2 pt-5 pb-5'>
+          <h6 className='pb-2'>Admin</h6>
+            <li>Style Guide</li>
+            <li>Licenses</li>
+            <li>Instructions</li>
+            <li>Password</li>
+            <li>404</li>
+        </div>
+    </div>
+</div>
     </div>
   )
 }

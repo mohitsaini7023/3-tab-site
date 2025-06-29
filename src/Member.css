@@ -73,3 +73,16 @@ p{
     font-size: 22px;
     font-weight: 600;
 }
+.p3{
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+    color: rgb(77, 76, 76);
+}
+h6{
+    color: gray;
+}
