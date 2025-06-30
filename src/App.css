@@ -1,0 +1,19 @@
+.container{
+  background-color: #737373;
+}
+.btn3{
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition: .5s;
+  &:hover{
+     background-color: #949393;
+    border-radius: 26px;
+  }
+  &:focus{
+    color: black;
+    background-color: white;
+  }
+}
+
+
