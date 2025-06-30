@@ -3,7 +3,6 @@ import './Wedding.css'
 const Wedding = () => {
   return (
     <div>
-      
     </div>
   )
 }

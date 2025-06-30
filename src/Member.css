@@ -1,0 +1,88 @@
+.container1{
+    background-image: linear-gradient(to right, rgb(255, 242, 244),white,rgb(255, 234, 238)) ;
+}
+.abc{
+    background-color:transparent;
+}
+h1{
+    font-size: 55px;
+    color: black;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+.btn1{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(31, 28, 28);
+    &:hover{
+        background-color: rgb(41, 38, 38);
+    }
+}
+
+.btn2{
+    border: 1px solid gray;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+    &:hover{
+        background-color: rgb(226, 220, 220);
+    }
+}
+
+.h6{
+    color: gray;
+    font-size: 15px;
+}
+.h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+.p1{
+    font-size: 15px;
+    color: gray;
+}
+.card{
+      transition: transform 0.3s ease;
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+.container-fluid{
+    background-image: linear-gradient(to right, rgb(77, 40, 46),rgb(61, 60, 114),rgb(77, 40, 46));
+}
+.h3{
+    font-size: 38px;
+}
+.h4{
+    color: rgb(202, 202, 202);
+    font-size: 23px;
+}
+.input{
+    border: 1px solid white;
+    outline: none;
+    
+}
+.btn4{
+    background-color: rgba(255, 255, 255, 0.295);
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.p3{
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+    color: rgb(77, 76, 76);
+}
+h6{
+    color: gray;
+}
