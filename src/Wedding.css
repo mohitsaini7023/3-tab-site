@@ -104,24 +104,20 @@
 }
 
 /* Accordion Button Styling */
-.accordion-button {
-  background-color: #f4f7f4 !important;
-  font-size: 20px;
-  font-family: 'serif';
-  color: #0c2918;
-  padding: 20px;
-  border-radius: 8px !important;
-  margin-bottom: 15px;
+.accordion-header h5 {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
 }
 
-/* Accordion Body Styling */
-.accordion-body {
-  background-color: #f4f7f4;
-  font-family: 'serif';
-  color: #1e1e1e;
-  border-radius: 0 0 8px 8px;
-  padding: 20px;
-  border-top: 1px solid #ddd;
+.accordion-body p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  color: #444;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
 }
 
 /* Responsive Title Font for Mobile */

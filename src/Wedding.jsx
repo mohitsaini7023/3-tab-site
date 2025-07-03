@@ -188,76 +188,55 @@ const Wedding = () => {
           </div>
 
           {/* Right Side - Accordion */}
-          <div className="col-md-8">
-            <Accordion flush alwaysOpen>
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>
-                  <h1>What is the dress code for the wedding?</h1>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <h1>Please join us in semi-formal attire that reflects the elegance and joy of the occasion.</h1>
-                </Accordion.Body>
-              </Accordion.Item>
+      <div className="col-md-8">
+  <Accordion flush alwaysOpen>
+    <Accordion.Item eventKey="0">
+      <Accordion.Header>
+        <h5>What is the dress code for the wedding?</h5>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>Please join us in semi-formal attire that reflects the elegance and joy of the occasion.</p>
+      </Accordion.Body>
+    </Accordion.Item>
 
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>
-                  <h1>What time should guests arrive at the venue?</h1>
-                  
-                </Accordion.Header>
-                <Accordion.Body>
-                  <h1>
+    <Accordion.Item eventKey="1">
+      <Accordion.Header>
+        <h5>What time should guests arrive at the venue?</h5>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>Arrive 30 minutes early to enjoy the venue and find your seat comfortably.</p>
+      </Accordion.Body>
+    </Accordion.Item>
 
-                  Arrive 30 minutes early to enjoy the venue and find your seat comfortably.
-                  </h1>
-                </Accordion.Body>
-              </Accordion.Item>
+    <Accordion.Item eventKey="2">
+      <Accordion.Header>
+        <h5>Is there parking available at the venue?</h5>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>Yes, complimentary parking with signage and attendants on arrival.</p>
+      </Accordion.Body>
+    </Accordion.Item>
 
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>
-                  <h1>
+    <Accordion.Item eventKey="3">
+      <Accordion.Header>
+        <h5>Can I bring a plus one?</h5>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>Please refer to your invitation. Contact us for any special request.</p>
+      </Accordion.Body>
+    </Accordion.Item>
 
-                  Is there parking available at the venue?
-                  </h1>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <h1>
-                  Yes, complimentary parking with signage and attendants on arrival.
+    <Accordion.Item eventKey="4">
+      <Accordion.Header>
+        <h5>What should I do if I have dietary restrictions?</h5>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>Mention them while RSVPing or contact us directly to accommodate.</p>
+      </Accordion.Body>
+    </Accordion.Item>
+  </Accordion>
+</div>
 
-                  </h1>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>
-                  <h1>
-                  Can I bring a plus one?
-
-                  </h1>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <h1>
-
-                  Please refer to your invitation. Contact us for any special request.
-                  </h1>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey="4">
-                <Accordion.Header>
-                  <h1>
-
-                  What should I do if I have dietary restrictions?
-                  </h1>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <h1>
-
-                  Mention them while RSVPing or contact us directly to accommodate.
-                  </h1>
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
-          </div>
         </div>
       </div>
 
@@ -275,7 +254,6 @@ const Wedding = () => {
             </p>
           </div>
 
-          {/* Right Side Links */}
           <div className="footer-links" style={{ paddingRight: '20%' }}>
 
             <a href="#"><h4>RSVP </h4></a>
@@ -286,11 +264,7 @@ const Wedding = () => {
 
 
 
-            {/* <a href="#">RSVP</a>
-          <a href="#">Schedule</a>
-          <a href="#">Our Story</a>
-          <a href="#">FAQ</a>
-          <a href="#">Buy Template</a> */}
+     
           </div>
         </div>
 
